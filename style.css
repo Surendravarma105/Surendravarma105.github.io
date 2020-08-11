@@ -4,10 +4,10 @@ body {
     box-sizing: border-box;
     padding: 0rem;
     /*background-color: #ccc;*/
-    background-color: #ccc;
-    background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #91cdd8 74%);
     height: 97vh;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 .main__nav__container {
@@ -56,6 +56,13 @@ body {
     margin: 0.2rem 1rem;
     font-size: 1.4rem;
     color: white;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.main__nav__bar-item:hover {
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 1px #ccc;
     font-weight: 800;
 }
 
@@ -65,8 +72,8 @@ body {
 }
 
 .Details__img img {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
 }
 
