@@ -47,7 +47,17 @@ body {
     width: 50%;
     height: 97vh;
     background-color: #ccc;
+    position: relative;
     z-index: 100;
+    animation: MoveBar 0.4s ease-in;
+}
+
+.closebtn {
+    position: absolute;
+    font-size: 2rem;
+    top: 0.5rem;
+    right: 1rem;
+    cursor: pointer;
 }
 
 .for_flex {
@@ -90,7 +100,7 @@ body {
 }
 
 .mob__nav__bar-item:hover {
-    animation: Moveitems 0.4s ease-in;
+    animation: Moveitems 0.5s ease-out;
     animation-fill-mode: both;
 }
 
@@ -102,6 +112,16 @@ body {
 .mob__nav__bar-item a:hover,
 .mob__nav__bar-item a:focus {
     color: rgb(123, 123, 207);
+}
+
+@keyframes MoveBar {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 @keyframes Moveitems {
