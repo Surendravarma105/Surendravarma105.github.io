@@ -6,28 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Anton|Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="main__nav__container">
-        <header class="main__nav">
 
-                <div class="main__logo__Wrapper">
-                    <a href="index.html" class="main__logo__anchor">
-                        <img src="./Images/Surendra.jpg" class="main__logo" >
+        <header class="main__nav">
+            <!--Toggle Button-->
+            <div class="mob__toggle-items">
+                <div class="mob__toggle-item"></div>
+                <div class="mob__toggle-item"></div>
+                <div class="mob__toggle-item"></div>
+            </div>
+
+            <!---MOBILE NAVIGATION BAR----------------->
+
+            <div class="mob__wrapper">
+
+                <div class="for_flex">
+
+                <div class="mob__logo__Wrapper">
+                    <a href="index.html" class="mob__logo__anchor">
+                        <img src="./Images/Logo_Surendravarma.jpg" class="mob__logo" >
                     </a>
                 </div>
 
-                <div class="main__nav__bar">
-                    <ul class="main__nav__bar-items">
-                        <li class="main__nav__bar-item">PROJECTS</li>
-                        <li class="main__nav__bar-item">CONTACT</li>
-                        <li class="main__nav__bar-item">ABOUT ME</li>
-                        <li class="main__nav__bar-item">STATS</li>
+                <div class="mob__nav__bar">
+                    <ul class="mob__nav__bar-items">
+                        <li class="mob__nav__bar-item"><a href="https://www.google.com/">PROJECTS</a></li>
+                        <li class="mob__nav__bar-item"><a href="https://www.google.com/">CONTACT</a></li>
+                        <li class="mob__nav__bar-item"><a href="https://www.google.com/">ABOUT</a></li>
+                        <li class="mob__nav__bar-item"><a href="https://www.google.com/">STATS</a></li>
                     </ul>
                 </div>
+
+            </div>
+
+            </div>
+
+            <!--DESKTOP navigation bar----------------------------->
+
+            <div class="desk_wrapper">
+
+                <div class="desk__logo__Wrapper">
+                    <a href="index.html" class="desk__logo__anchor">
+                        <img src="./Images/Logo_Surendravarma.jpg" class="desk__logo" >
+                    </a>
+                </div>
+
+                <div class="desk__nav__bar">
+                    <ul class="desk__nav__bar-items">
+                        <li class="desk__nav__bar-item"><a href="https://www.google.com/">PROJECTS</a></li>
+                        <li class="desk__nav__bar-item"><a href="https://www.google.com/">CONTACT</a></li>
+                        <li class="desk__nav__bar-item"><a href="https://www.google.com/">ABOUT ME</a></li>
+                        <li class="desk__nav__bar-item"><a href="https://www.google.com/">STATS</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
         </header>
 
         <main class="Details__container">
@@ -39,6 +77,6 @@
             </div>
         </main>
 
-    </div>
+        <script src="index.js"></script>
 
 </body>
