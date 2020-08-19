@@ -1,0 +1,146 @@
+
+
+main {
+    /*background-color: rgb(204, 167, 154);*/
+}
+
+
+.main__title {
+    padding: 0.5rem;
+    text-align: justify;
+}
+
+.main__title h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 100%;
+}
+
+
+.Contactme {
+    padding: 0.5rem;
+    text-align: left;
+    margin: auto;
+    width: 80%;
+}
+
+.Contactme h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/*------------FORM STYLES------------------------*/
+
+.Main__form {
+    padding: 0.4rem;
+    width: 100%;
+    margin: auto;
+}
+
+@supports (display: grid) {
+    .Main__form {
+        display: grid;
+        grid-auto-rows: 2.5rem;
+        justify-items: start;
+        align-items: center;
+    }
+}
+
+.Main__form label {
+    margin: 0.5rem;
+}
+
+.Main__form input {
+
+    -webkit-appearance: none;
+    appearance: none !important;
+
+    margin: 0.5rem;
+    padding: 0 0.6rem;
+    font-size: 1.2rem;
+    font-family: 'Mulish', sans-serif;
+    color: #414042;
+
+    border-radius: 0.5rem;
+    width: 80%;
+    background: #dbd9d9;
+
+    height: 2.2rem;
+    border: 1px solid #dadada;
+}
+
+.Main__form input:hover {
+    /*border: 2px solid rgb(134, 134, 223);*/
+    box-shadow: 2px 2px 2px rgb(180, 178, 178);
+}
+
+.Main__form input:focus {
+    outline: none;
+}
+
+
+.Main__form textarea {
+
+    -webkit-appearance: none;
+    appearance: none !important;
+    grid-row: span 6;
+
+    margin: 0.5rem;
+    padding: 0.6rem 0.6rem;
+    font-size: 1.2rem;
+    font-family: 'Mulish', sans-serif;
+    color: #414042;
+
+    border-radius: 0.5rem;
+    width: 80%;
+    background: #dbd9d9;
+
+    height: 10rem;
+    border: 1px solid #dadada;
+
+}
+
+.Main__form textarea:focus {
+    outline: none;
+}
+
+.Main__form button {
+    margin: 0.5rem;
+    
+    -webkit-appearance: none;
+    appearance: none !important;
+    grid-row: span 2;
+
+    padding: 0.3rem 0.3rem;
+    font-size: 1.2rem;
+    font-family: 'Mulish', sans-serif;
+    color: #414042;
+
+    border-radius: 0.5rem;
+    width: 55%;
+    background: #dbd9d9;
+    border: 1px solid #dadada;
+
+}
+
+.Main__form button:hover {
+    background-color: rgb(47, 199, 47);
+    color: white;
+
+}
+
+.Main__form button:focus {
+    outline: none;
+}
+
+
+@media (min-width: 40rem) {
+    .Main__form {
+        max-width: 50rem;
+    }
+
+    .Main__form button {
+        max-width: 15rem;
+    }
+}
+
